@@ -1,11 +1,11 @@
-# Transient Thermal/Structural Multi-Physics Simulation
+# Mesh-Free Transient Thermal/Structural Multi-Physics Simulation
 
-This MATLAB repository contains a **transient (quasi-static) thermal/structural simulation** model designed for multi-physics analysis. The model simulates the interaction of thermal and structural fields under transient thermal loading conditions and outputs deformation, stress variants, and temperature distribution over time and space.
+This MATLAB repository contains a **Mesh Free transient (quasi-static) thermal/structural simulation** model designed for multi-physics analysis. The model simulates the interaction of thermal and structural fields under transient thermal loading conditions and outputs deformation, stress variants, and temperature distribution over time and space.
 
 ## Key Features
 
 - **Nonlinear Analysis**: Uses the Newton-Raphson algorithm to handle nonlinear equations, critical for accurate structural simulation under thermal loads.
-- **Generalized Differential Quadrature (GDQ)**: Employed for spatial discretization, allowing efficient and high-accuracy solution over the domain.
+- **Generalized Differential Quadrature (GDQ)**: Employed for spatial discretization, allowing mesh free efficient and high-accuracy solution over the domain.
 - **Boundary Conditions**: The model includes varied boundary conditions, such as insulation and prescribed temperatures, to simulate realistic thermal interactions.
 - **Temporal and Spatial Resolution**: Outputs simulation results over both time and spatial domains, providing detailed insight into deformation and stress distribution.
 
